@@ -1,0 +1,19 @@
+﻿using Shop.DTO.Customer_DTO;
+using Shop.DTO.Customer_DTOs;
+using Shop.Models;
+
+namespace Shop.Services.Interfaces
+{
+    public interface ICustomerService
+    {
+
+        Task<CustomerResponseDto?> GetByIdAsync(int id);
+        Task<CustomerResponseDto?> UpdateAsync(int id, CustomerUpdateRequest updateRequest);
+        Task<CustomerResponseDto> CreateAsync(CustomerCreateRequest createCustomerDto, int ownerId);
+
+        Task<bool> DeleteAsync(int id);
+
+
+
+    }
+}
