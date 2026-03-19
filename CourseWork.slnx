@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/ShopApi1/">
+    <Project Path="ShopApi1/Shop.Infrastructure/Shop.Infrastructure.csproj" />
+    <Project Path="ShopApi1/Shop.Application/Shop.Application.csproj" />
+    <Project Path="ShopApi1/Shop.Domain/Shop.Domain.csproj" />
+    <Project Path="ShopApi1/Shop.Api/Shop.Api.csproj" />
+  </Folder>
+</Solution>
