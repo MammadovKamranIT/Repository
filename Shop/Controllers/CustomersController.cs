@@ -6,13 +6,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace Shop.Api.Controllers
+namespace Shop.Controllers
 {
 
 
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Policy = "UserOrAbove")]
     public class CustomersController : ControllerBase
     {
 
@@ -20,8 +19,7 @@ namespace Shop.Api.Controllers
         private readonly IAuthorizationService _authorizationService;
 
         private string? UserId => User
-                          .FindFirstValue(ClaimTypes.NameIdentifier);
-
+                            .FindFirstValue(ClaimTypes.NameIdentifier);
         private IList<string> Roles => User
                                     .Claims
                                     .Where(c => c.Type == ClaimTypes.Role)
@@ -70,8 +68,9 @@ namespace Shop.Api.Controllers
 
             var ownerId = UserId ?? throw new InvalidOperationException("User ID not found in claims");
 
+            var intownerid = Int32.Parse(ownerId);
 
-            var createdCustomer = await _customerService.CreateAsync(createRequest, ownerId);
+            var createdCustomer = await _customerService.CreateAsync(createRequest, intownerid);
 
             return CreatedAtAction(
                 nameof(GetById),

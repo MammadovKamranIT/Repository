@@ -4,7 +4,7 @@ using Shop.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Shop.DTO.Order;
 
-namespace Shop.Api.Controllers
+namespace Shop.Controllers
 
 {
     
