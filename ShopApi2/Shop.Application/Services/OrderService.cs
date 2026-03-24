@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using Shop.Common;
+
 using Shop.DTO.Order_DTOs;
 using Shop.Models;
 using Shop.Services.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using Shop.DTO.Order;
 using Shop.Application.Services.Interfaces;
 

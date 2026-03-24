@@ -5,11 +5,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 using Shop.Application.Config;
 using Shop.Infrastructure.Identity;
+using Shop.Api.Authorization;
 
 namespace Shop.Api.Extensions
 {
@@ -44,6 +45,18 @@ namespace Shop.Api.Extensions
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
                     Scheme = "Bearer"
+                });
+
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme  
+                        {
+                            Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+                        },
+                        Array.Empty<string>()
+                    }
                 });
             
             });
@@ -80,10 +93,15 @@ namespace Shop.Api.Extensions
             services.AddAuthorization(options =>
             {
 
+                options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
                 options.AddPolicy("UserOrAbove", policy => policy.RequireRole("Admin", "Manager", "User"));
-           
+                options.AddPolicy("AdminOrManager", policy => policy.RequireRole("Admin", "Manager"));
+                options.AddPolicy("AppUserRole", policy => policy.Requirements.Add(new AppUserRoleRequirement()));
+
+
             });
 
+            services.AddScoped<IAuthorizationHandler, AppUserRole>();
 
 
             return services;
@@ -104,6 +122,21 @@ namespace Shop.Api.Extensions
             .AddEntityFrameworkStores<ShopDbContext>()
             .AddDefaultTokenProviders();
 
+            return services;
+        }
+
+        public static IServiceCollection AddCorsPolicy(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(policy =>
+                {
+                    policy.WithOrigins("http://localhost:3000", "http://127.0.0.1:3000")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
+                });
+            });
             return services;
         }
 

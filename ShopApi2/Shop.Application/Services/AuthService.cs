@@ -1,8 +1,7 @@
-﻿using Shop.Application.DTO;
+﻿
 using Shop.Application.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Shop.DTO.Auth_DTOs;
+
 
 namespace Shop.Application.Services
 {
@@ -96,9 +95,9 @@ namespace Shop.Application.Services
             return new AuthResponseDto
             {
                 AccessToken = accessToken,
-                ExpiresAt = expiresAt,
+                ExpiredAt = expiresAt,
                 RefreshToken = refreshJwt,
-                RefreshTokenExpiresAt = refreshEntity.ExpiresAt,
+                RefreshTokenExpiredAt = refreshEntity.ExpiresAt,
                 Email = email ?? "",
                 Roles = roles
             };

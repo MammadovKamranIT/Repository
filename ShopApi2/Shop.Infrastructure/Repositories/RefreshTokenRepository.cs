@@ -1,10 +1,8 @@
-﻿using Shop.Application.Services.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using Shop.Application.Services.Interfaces;
 using Shop.Data;
 using Shop.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Text;
+
 
 namespace Shop.Infrastructure.Repositories
 {

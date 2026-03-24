@@ -8,9 +8,6 @@ using Shop.Data;
 using Shop.Infrastructure.Identity;
 using Shop.Infrastructure.Jwt;
 using Shop.Infrastructure.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Shop.Infrastructure.Extensions
 {

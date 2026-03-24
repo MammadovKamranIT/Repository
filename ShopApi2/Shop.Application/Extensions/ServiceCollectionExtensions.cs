@@ -1,4 +1,4 @@
-﻿using FluentValidation;
+﻿
 using Microsoft.Extensions.DependencyInjection;
 using Shop.Application.Services;
 using Shop.Application.Services.Interfaces;

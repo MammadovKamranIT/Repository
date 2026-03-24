@@ -1,7 +1,7 @@
 ﻿namespace Shop.DTO.Auth_DTOs
 {
 
-    public class RegisterRequest
+    public class RegisterRequestDto
     {
         /// <summary>
         /// User FirstName
@@ -30,7 +30,7 @@
         public string ConfirmedPassword { get; set; } = string.Empty;
     }
 
-    public class LoginRequest
+    public class LoginRequestDto
     {
         /// <summary>
         /// Email

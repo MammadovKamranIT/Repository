@@ -1,0 +1,13 @@
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\bin\Debug\net10.0\Shop.Domain.deps.json
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\bin\Debug\net10.0\Shop.Domain.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\bin\Debug\net10.0\Shop.Domain.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.csproj.AssemblyReference.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.AssemblyInfoInputs.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.AssemblyInfo.cs
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.csproj.CoreCompileInputs.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.sourcelink.json
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\refint\Shop.Domain.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\ref\Shop.Domain.dll

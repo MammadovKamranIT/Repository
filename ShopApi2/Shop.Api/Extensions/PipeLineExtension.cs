@@ -1,5 +1,4 @@
 ﻿using Shop.Api.Middleware;
-using Shop.Data;
 using Shop.Infrastructure.Data;
 
 
@@ -20,11 +19,12 @@ namespace Shop.Api.Extensions
                     options.DisplayRequestDuration();
                     options.EnableFilter();
                     options.EnableTryItOutByDefault();
+                    options.EnablePersistAuthorization();
                 });
                 app.MapOpenApi();
             }
             app.UseMiddleware<GlobalExceptionMiddleware>();
-
+            app.UseCors();
             app.UseAuthentication();
             app.UseAuthorization();
 

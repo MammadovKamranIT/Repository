@@ -1,6 +1,5 @@
 ﻿using Shop.Common;
 using Shop.DTO.Customer_DTO;
-using Shop.Services;
 using Shop.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -49,6 +48,8 @@ namespace Shop.Api.Controllers
                         .ErrorResponse($"Customer with ID {id} not found")
                 );
 
+            var authorizationResult = await _authorizationService.AuthorizeAsync(User, customer, "ProjectMemberOrHigher");
+            var dto = await _customerService.GetByIdAsync(id);
             return Ok(
                 ApiResponse<CustomerResponseDto>
                     .SuccessResponse(customer, "Customer found")
@@ -57,6 +58,7 @@ namespace Shop.Api.Controllers
 
 
         [HttpPost]
+        [Authorize(Policy = "AdminOrManager")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<ApiResponse<CustomerResponseDto>>> Create(

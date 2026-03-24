@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Shop.Infrastructure.Identity;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Shop.Infrastructure.Data
 {

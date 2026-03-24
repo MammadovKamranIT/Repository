@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Shop.Application.DTO;
+
 using Shop.Application.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Shop.DTO.Auth_DTOs;
+
 
 namespace Shop.Infrastructure.Identity
 {

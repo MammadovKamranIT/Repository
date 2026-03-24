@@ -1,6 +1,5 @@
 ﻿using Shop.DTO.Customer_DTO;
-using Shop.DTO.Customer_DTOs;
-using Shop.Models;
+
 
 namespace Shop.Services.Interfaces
 {

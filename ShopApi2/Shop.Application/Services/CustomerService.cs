@@ -1,12 +1,10 @@
 ﻿using AutoMapper;
-using Shop;
+
 using Shop.DTO.Customer_DTO;
-using Shop.DTO.Customer_DTOs;
-using Shop.DTO.Order_DTOs;
+
 using Shop.Models;
 using Shop.Services.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 using Shop.Application.Services.Interfaces;
 
 namespace Shop.Services

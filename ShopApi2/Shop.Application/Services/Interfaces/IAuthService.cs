@@ -1,7 +1,6 @@
-﻿using Shop.Application.DTO;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using Shop.DTO.Auth_DTOs;
+
 
 namespace Shop.Application.Services.Interfaces
 {

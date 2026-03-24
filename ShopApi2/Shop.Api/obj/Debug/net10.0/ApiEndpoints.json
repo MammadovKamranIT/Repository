@@ -1,6 +1,100 @@
 [
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Shop.DTO.Auth_DTOs.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shop.Api.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "Shop.DTO.Auth_DTOs.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shop.Api.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequest",
+        "Type": "Shop.DTO.Auth_DTOs.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shop.Api.Controllers.AuthController",
+    "Method": "Revoke",
+    "RelativePath": "api/Auth/revoke",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "Shop.DTO.Auth_DTOs.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Create",
     "RelativePath": "api/Customers",
     "HttpMethod": "POST",
@@ -35,7 +129,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "GetById",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "GET",
@@ -70,7 +164,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Update",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "PUT",
@@ -119,7 +213,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Delete",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "DELETE",
@@ -154,7 +248,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetAll",
     "RelativePath": "api/Order",
     "HttpMethod": "GET",
@@ -174,7 +268,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Create",
     "RelativePath": "api/Order",
     "HttpMethod": "POST",
@@ -209,7 +303,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetById",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "GET",
@@ -244,7 +338,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Update",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "PUT",
@@ -293,7 +387,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Delete",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "DELETE",
@@ -328,7 +422,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetByCustomerId",
     "RelativePath": "api/Order/customer/{customerId}",
     "HttpMethod": "GET",
@@ -363,22 +457,16 @@
     ]
   },
   {
-    "ContainingType": "Shop.Api.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "login",
-    "HttpMethod": "POST",
+    "ContainingType": "Shop.Api.Controllers.UserRolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/UserRoles",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginRequest",
-        "Type": "Shop.Application.DTO.LoginRequestDto",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Shop.Common.ApiResponse\u00601[[Shop.Application.DTO.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shop.Common.ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[Shop.DTO.Auth_DTOs.UserWithRolesDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -389,22 +477,22 @@
     ]
   },
   {
-    "ContainingType": "Shop.Api.Controllers.AuthController",
-    "Method": "Refresh",
-    "RelativePath": "refresh",
-    "HttpMethod": "POST",
+    "ContainingType": "Shop.Api.Controllers.UserRolesController",
+    "Method": "GetRoles",
+    "RelativePath": "api/UserRoles/{userId}/roles",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "refreshTokenRequest",
-        "Type": "Shop.Application.DTO.RefreshTokenRequest",
+        "Name": "userId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Shop.Common.ApiResponse\u00601[[Shop.Application.DTO.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.UserWithRolesDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -415,22 +503,27 @@
     ]
   },
   {
-    "ContainingType": "Shop.Api.Controllers.AuthController",
-    "Method": "Register",
-    "RelativePath": "register",
+    "ContainingType": "Shop.Api.Controllers.UserRolesController",
+    "Method": "AssignRole",
+    "RelativePath": "api/UserRoles/{userId}/roles",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registerRequest",
-        "Type": "Shop.Application.DTO.RegisterRequestDto",
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "assignRole",
+        "Type": "Shop.DTO.Auth_DTOs.AssignRoleDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Shop.Common.ApiResponse\u00601[[Shop.Application.DTO.AuthResponseDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.UserWithRolesDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -441,19 +534,34 @@
     ]
   },
   {
-    "ContainingType": "Shop.Api.Controllers.AuthController",
-    "Method": "Revoke",
-    "RelativePath": "revoke",
-    "HttpMethod": "POST",
+    "ContainingType": "Shop.Api.Controllers.UserRolesController",
+    "Method": "RemoveRole",
+    "RelativePath": "api/UserRoles/{userId}/roles/{roleName}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "refreshTokenRequest",
-        "Type": "Shop.Application.DTO.RefreshTokenRequest",
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Shop.Common.ApiResponse\u00601[[Shop.DTO.Auth_DTOs.UserWithRolesDto, Shop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

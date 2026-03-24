@@ -1,11 +1,8 @@
-using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Shop.Api.Extensions;
 using Shop.Application.Extensions;
-using Shop.Data;
+
 using Shop.Infrastructure.Extensions;
-using Shop.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);

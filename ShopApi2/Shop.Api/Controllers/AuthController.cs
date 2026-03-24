@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Application.DTO;
 using Shop.Application.Services.Interfaces;
 using Shop.Common;
+using Shop.DTO.Auth_DTOs;
 
 namespace Shop.Api.Controllers
 {
+
+    [Route("api/[controller]")]
+    [ApiController]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;

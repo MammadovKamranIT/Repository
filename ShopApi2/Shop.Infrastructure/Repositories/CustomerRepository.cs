@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+
 using Shop.Application.Services.Interfaces;
 using Shop.Data;
 using Shop.Models;

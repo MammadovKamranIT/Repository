@@ -1,7 +1,6 @@
 using System.Net;
 using System.Text.Json;
 using FluentValidation;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Shop.Api.Middleware;
