@@ -30,6 +30,5 @@ namespace Shop.Infrastructure.Repositories
                 .ToListAsync();
         }
 
-
     }
 }
