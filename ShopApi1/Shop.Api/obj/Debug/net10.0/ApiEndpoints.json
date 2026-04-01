@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Create",
     "RelativePath": "api/Customers",
     "HttpMethod": "POST",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "GetById",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "GET",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Update",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "PUT",
@@ -119,7 +119,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.CustomersController",
+    "ContainingType": "Shop.Api.Controllers.CustomersController",
     "Method": "Delete",
     "RelativePath": "api/Customers/{id}",
     "HttpMethod": "DELETE",
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetAll",
     "RelativePath": "api/Order",
     "HttpMethod": "GET",
@@ -174,7 +174,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Create",
     "RelativePath": "api/Order",
     "HttpMethod": "POST",
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetById",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "GET",
@@ -244,7 +244,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Update",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "PUT",
@@ -293,7 +293,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "Delete",
     "RelativePath": "api/Order/{id}",
     "HttpMethod": "DELETE",
@@ -328,7 +328,7 @@
     ]
   },
   {
-    "ContainingType": "Shop.Controllers.OrderController",
+    "ContainingType": "Shop.Api.Controllers.OrderController",
     "Method": "GetByCustomerId",
     "RelativePath": "api/Order/customer/{customerId}",
     "HttpMethod": "GET",

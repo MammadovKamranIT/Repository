@@ -1,0 +1,60 @@
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.deps.json
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.runtimeconfig.json
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.AssemblyReference.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfo.cs
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.sourcelink.json
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Inf.23789BD3.Up2Date
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\refint\Shop.Infrastructure.dll
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.pdb
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.genruntimeconfig.cache
+D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\ref\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.deps.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.runtimeconfig.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.sourcelink.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Inf.23789BD3.Up2Date
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\refint\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.genruntimeconfig.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi2\Shop.Infrastructure\obj\Debug\net10.0\ref\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.deps.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.runtimeconfig.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Infrastructure.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Application.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\bin\Debug\net10.0\Shop.Domain.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.sourcelink.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Inf.23789BD3.Up2Date
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\refint\Shop.Infrastructure.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\Shop.Infrastructure.genruntimeconfig.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi3\Shop.Infrastructure\obj\Debug\net10.0\ref\Shop.Infrastructure.dll

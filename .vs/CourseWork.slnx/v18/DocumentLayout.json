@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAC6FE7-C86B-3991-B56B-67C6ADEC6BFA}|ShopApi3\\Shop.Infrastructure\\Shop.Infrastructure.csproj|c:\\users\\user\\home\\programming\\asp_net\\coursework\\shopapi3\\shop.infrastructure\\data\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAC6FE7-C86B-3991-B56B-67C6ADEC6BFA}|ShopApi3\\Shop.Infrastructure\\Shop.Infrastructure.csproj|solutionrelative:shopapi3\\shop.infrastructure\\data\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi3\\Shop.Infrastructure\\Data\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "ShopApi3\\Shop.Infrastructure\\Data\\RoleSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi3\\Shop.Infrastructure\\Data\\RoleSeeder.cs",
+              "RelativeToolTip": "ShopApi3\\Shop.Infrastructure\\Data\\RoleSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:24:03.941Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             }
           ]
         }

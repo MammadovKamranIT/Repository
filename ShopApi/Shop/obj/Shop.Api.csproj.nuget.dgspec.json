@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj": {}
+    "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj": {}
   },
   "projects": {
-    "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
+    "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj",
         "projectName": "Shop.Application",
-        "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj",
-        "packagesPath": "C:\\Users\\Kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\obj\\",
+        "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,16 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/mailtrap/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj"
+              "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj"
               }
             }
           }
@@ -380,20 +379,20 @@
         }
       }
     },
-    "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
+    "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj",
-        "packagesPath": "C:\\Users\\Kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -402,8 +401,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/mailtrap/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -736,20 +734,20 @@
         }
       }
     },
-    "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+    "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
         "projectName": "Shop.Infrastructure",
-        "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -758,19 +756,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/mailtrap/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
-                "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj"
+              "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj"
               },
-              "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj"
+              "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Domain\\Shop.Domain.csproj"
               }
             }
           }
@@ -1103,20 +1100,20 @@
         }
       }
     },
-    "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj": {
+    "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj",
         "projectName": "Shop.Api",
-        "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj",
-        "packagesPath": "C:\\Users\\Kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop\\obj\\",
+        "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop\\Shop.Api.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1125,19 +1122,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/mailtrap/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
-                "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj"
+              "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Application\\Shop.Application.csproj"
               },
-              "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
-                "projectPath": "D:\\Home\\Programming\\9. ASP_NET\\Course Work\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
+              "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Home\\Programming\\ASP_Net\\CourseWork\\ShopApi\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
               }
             }
           }

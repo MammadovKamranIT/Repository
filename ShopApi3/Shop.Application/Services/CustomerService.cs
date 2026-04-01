@@ -1,0 +1,72 @@
+﻿using AutoMapper;
+
+using Shop.DTO.Customer_DTO;
+
+using Shop.Models;
+using Shop.Services.Interfaces;
+
+using Shop.Application.Services.Interfaces;
+
+namespace Shop.Services
+{
+    public class CustomerService : ICustomerService
+    {
+
+
+        private readonly ICustomerRepository _customerRepository;
+
+        private readonly IMapper _mapper;
+
+        public CustomerService(
+            ICustomerRepository customerRepository,
+ 
+            IMapper mapper)
+        {
+            _customerRepository = customerRepository;
+         
+            _mapper = mapper;
+        }
+
+        public async Task<IEnumerable<CustomerResponseDto>> GetAllForUserAsync(string userId, IList<string> roles)
+        {
+            var customers = await _customerRepository.GetAllForUserAsync(userId, roles);
+            return _mapper.Map<IEnumerable<CustomerResponseDto>>(customers);
+        }
+
+
+        public async Task<CustomerResponseDto?> GetByIdAsync(int id)
+        {
+            var customer = await _customerRepository.FindAsync(id);
+            return customer is null ? null : _mapper.Map<CustomerResponseDto>(customer);
+        }
+
+        public async Task<CustomerResponseDto> CreateAsync(CustomerCreateRequest createCustomerDto, string ownerId)
+        {
+            var customer = _mapper.Map<Customer>(createCustomerDto);
+
+            await _customerRepository.AddAsync(customer);
+            return _mapper.Map<CustomerResponseDto>(customer);
+        }
+
+        public async Task<CustomerResponseDto?> UpdateAsync(int id, CustomerUpdateRequest updateCustomerDto)
+        {
+            var customer = await _customerRepository.FindAsync(id);
+            if (customer is null) return null;
+            _mapper.Map(updateCustomerDto, customer);
+            await _customerRepository.UpdateAsync(customer);
+            return _mapper.Map<CustomerResponseDto>(customer);
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var customer = await _customerRepository.FindAsync(id);
+            if (customer is null) return false;
+            await _customerRepository.RemoveAsync(customer);
+            return true;
+        }
+
+
+     
+
+    }
+}

@@ -11,3 +11,16 @@ D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\D
 D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\refint\Shop.Domain.dll
 D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\Shop.Domain.pdb
 D:\Home\Programming\9. ASP_NET\Course Work\CourseWork\ShopApi2\Shop.Domain\obj\Debug\net10.0\ref\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\bin\Debug\net10.0\Shop.Domain.deps.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\bin\Debug\net10.0\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\bin\Debug\net10.0\Shop.Domain.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.AssemblyInfo.cs
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.sourcelink.json
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\refint\Shop.Domain.dll
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\Shop.Domain.pdb
+C:\Users\User\Home\Programming\ASP_Net\CourseWork\ShopApi1\Shop.Domain\obj\Debug\net10.0\ref\Shop.Domain.dll
