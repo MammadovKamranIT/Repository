@@ -31,4 +31,5 @@ namespace Shop.Infrastructure.Repositories
         }
 
     }
+
 }
